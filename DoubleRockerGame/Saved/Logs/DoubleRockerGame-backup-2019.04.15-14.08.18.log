@@ -1,0 +1,899 @@
+﻿Log file open, 04/13/19 21:27:13
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VSPerf140.dll' (GetLastError=126)
+LogWindows: File 'VSPerf140.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogInit: Display: Running engine for game: DoubleRockerGame
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 20 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.231887
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: Display: ICU TimeZone Detection - Raw Offset: +8:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapEmulator
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin ImmediatePhysics
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Plugin shader directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders found
+LogPluginManager: Mapping shader source directory ../../../Engine/Plugins/Runtime/Oculus/OculusVR/Shaders to virtual directory /Plugin/OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.309s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = false  - Libcurl will NOT verify peer certificate
+LogInit:  - bUseHttpProxy = true  - Libcurl will use HTTP proxy
+LogInit:  - HttpProxyAddress = '127.0.0.1:2055'
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.20-CL-4369336
+LogInit: Engine Version: 4.20.3-4369336+++UE4+Release-4.20
+LogInit: Compatible Engine Version: 4.20.0-4212847+++UE4+Release-4.20
+LogInit: Net CL: 4212847
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-8400 CPU @ 2.80GHz, GPU: NVIDIA GeForce GTX 1060 3GB
+LogInit: Compiled (64-bit): Sep 17 2018 12:26:19
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.20
+LogInit: Command Line: -EpicPortal  -epicusername="LouisLiu00" -epicuserid=1e5fce73afff405ab06b806585640cd9 -epiclocale=zh-CN
+LogInit: Base Directory: D:/unreal/UE_4.20/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 20
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 24
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 26
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 12
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 1
+LogStreaming: Display: Took  0.050s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+[2019.04.13-13.27.13:762][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.13-13.27.13:762][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.04.13-13.27.13:798][  0]LogHAL: Display: Platform has ~ 16 GB [17078894592 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.04.13-13.27.13:798][  0]LogInit: Setting Device Profile CVar: [[r.Vulkan.UseRealUBs:1]]
+[2019.04.13-13.27.13:798][  0]LogInit: Going up to parent DeviceProfile []
+[2019.04.13-13.27.13:798][  0]LogInit: Computer: DESKTOP-L9M5IHA
+[2019.04.13-13.27.13:798][  0]LogInit: User: 14035
+[2019.04.13-13.27.13:798][  0]LogInit: CPU Page size=4096, Cores=6
+[2019.04.13-13.27.13:798][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2019.04.13-13.27.13:799][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.04.13-13.27.13:799][  0]LogMemory: Platform Memory Stats for Windows
+[2019.04.13-13.27.13:799][  0]LogMemory: Process Physical Memory: 102.25 MB used, 102.26 MB peak
+[2019.04.13-13.27.13:799][  0]LogMemory: Process Virtual Memory: 96.93 MB used, 96.93 MB peak
+[2019.04.13-13.27.13:799][  0]LogMemory: Physical Memory: 6130.03 MB used,  10157.67 MB free, 16287.70 MB total
+[2019.04.13-13.27.13:799][  0]LogMemory: Virtual Memory: 4644.47 MB used,  10157.67 MB free, 134217728.00 MB total
+[2019.04.13-13.27.13:816][  0]LogInit: Using OS detected language (zh-CN).
+[2019.04.13-13.27.13:816][  0]LogInit: Using OS detected locale (zh-CN).
+[2019.04.13-13.27.14:111][  0]LogStreaming: Display: Took  0.295s to InitEngineTextLocalization.
+[2019.04.13-13.27.14:111][  0]LogInit: Setting process to per monitor DPI aware
+[2019.04.13-13.27.14:133][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.04.13-13.27.14:134][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.04.13-13.27.14:390][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.13-13.27.14:390][  0]LogD3D11RHI: D3D11 adapters:
+[2019.04.13-13.27.14:442][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 3GB' (Feature Level 11_0)
+[2019.04.13-13.27.14:442][  0]LogD3D11RHI:       2988/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x10de
+[2019.04.13-13.27.14:444][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.04.13-13.27.14:444][  0]LogD3D11RHI:       0/0/8143 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.04.13-13.27.14:444][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.04.13-13.27.14:451][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.04.13-13.27.14:451][  0]LogD3D11RHI:     GPU DeviceId: 0x1c02 (for the marketing name, search the web for "GPU Device Id")
+[2019.04.13-13.27.14:451][  0]LogWindows: EnumDisplayDevices:
+[2019.04.13-13.27.14:451][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 3GB' (P:1 D:1)
+[2019.04.13-13.27.14:452][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2019.04.13-13.27.14:452][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2019.04.13-13.27.14:452][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 3GB' (P:0 D:0)
+[2019.04.13-13.27.14:452][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.04.13-13.27.14:452][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 3GB
+[2019.04.13-13.27.14:452][  0]LogD3D11RHI:   Driver Version: 398.36 (internal:24.21.13.9836, unified:398.36)
+[2019.04.13-13.27.14:452][  0]LogD3D11RHI:      Driver Date: 6-24-2018
+[2019.04.13-13.27.14:452][  0]LogRHI: Texture pool is 2091 MB (70% of 2988 MB)
+[2019.04.13-13.27.14:485][  0]LogD3D11RHI: Async texture creation enabled
+[2019.04.13-13.27.14:524][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.04.13-13.27.14:574][  0]LogShaderCompilers: Guid format shader working directory is -2 characters bigger than the processId version (../../../../../Unreal Projects/DoubleRockerGame/Intermediate/Shaders/WorkingDirectory/16172/).
+[2019.04.13-13.27.14:574][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/14035/AppData/Local/Temp/UnrealShaderWorkingDir/871862D94155D3866EB272A7534663CC/'.
+[2019.04.13-13.27.14:799][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.04.13-13.27.14:808][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.04.13-13.27.14:819][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.04.13-13.27.14:829][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.04.13-13.27.14:840][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.04.13-13.27.14:851][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.04.13-13.27.14:861][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.04.13-13.27.14:872][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.04.13-13.27.14:876][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.04.13-13.27.14:942][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.13-13.27.14:943][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.13-13.27.14:943][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.13-13.27.14:943][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.13-13.27.14:943][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.13-13.27.14:943][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.13-13.27.14:943][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.13-13.27.14:943][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.13-13.27.14:943][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.13-13.27.14:943][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.13-13.27.14:943][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.13-13.27.14:943][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.13-13.27.14:943][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.13-13.27.14:943][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.13-13.27.14:943][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.13-13.27.14:943][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.13-13.27.14:943][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.13-13.27.14:943][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.04.13-13.27.14:944][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.04.13-13.27.14:999][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.13-13.27.14:999][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.04.13-13.27.15:018][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.13-13.27.15:019][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.04.13-13.27.15:028][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.04.13-13.27.15:038][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.04.13-13.27.15:049][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.04.13-13.27.15:060][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.04.13-13.27.15:067][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.04.13-13.27.15:067][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.04.13-13.27.15:105][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.04.13-13.27.15:105][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.04.13-13.27.15:105][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.04.13-13.27.15:739][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.04.13-13.27.15:787][  0]LogDerivedDataCache: Loaded boot cache 0.05s 72MB C:/Users/14035/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.13-13.27.15:787][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/14035/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc
+[2019.04.13-13.27.15:787][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../Unreal Projects/DoubleRockerGame/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.04.13-13.27.15:787][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.04.13-13.27.15:787][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../Unreal Projects/DoubleRockerGame/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.04.13-13.27.15:787][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.04.13-13.27.15:800][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.04.13-13.27.15:813][  0]LogDerivedDataCache: Using Local data cache path D:/UnrealDerivedDataCache: Writable
+[2019.04.13-13.27.15:813][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.04.13-13.27.15:813][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.04.13-13.27.15:846][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.04.13-13.27.15:847][  0]LogSlate: Using FreeType 2.6.0
+[2019.04.13-13.27.15:848][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.04.13-13.27.15:921][  0]LogAssetRegistry: FAssetRegistry took 0.0253 seconds to start up
+[2019.04.13-13.27.16:175][  0]LogInit: Selected Device Profile: [Windows]
+[2019.04.13-13.27.16:281][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.04.13-13.27.16:283][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.04.13-13.27.16:283][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.04.13-13.27.16:283][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.04.13-13.27.16:283][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.04.13-13.27.16:298][  0]LogNetVersion: DoubleRockerGame 1.0.0, NetCL: 4212847, EngineNetVer: 5, GameNetVer: 0 (Checksum: 946999377)
+[2019.04.13-13.27.17:259][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 4 prioritized culture(s) in 0.580341 seconds
+[2019.04.13-13.27.17:264][  0]LogUObjectArray: 38426 objects as part of root set at end of initial load.
+[2019.04.13-13.27.17:264][  0]LogUObjectAllocator: 6691088 out of 0 bytes used by permanent object pool.
+[2019.04.13-13.27.17:264][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.04.13-13.27.18:043][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.04.13-13.27.18:057][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.04.13-13.27.18:184][  0]SourceControl: 源码管理已禁用
+[2019.04.13-13.27.18:184][  0]SourceControl: 源码管理已禁用
+[2019.04.13-13.27.18:185][  0]SourceControl: 源码管理已禁用
+[2019.04.13-13.27.18:186][  0]SourceControl: 源码管理已禁用
+[2019.04.13-13.27.18:334][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.04.13-13.27.18:404][  0]LogOcInput: OculusInput pre-init called
+[2019.04.13-13.27.18:453][  0]LogEngine: Initializing Engine...
+[2019.04.13-13.27.18:454][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.04.13-13.27.18:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.13-13.27.18:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.13-13.27.18:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.13-13.27.18:455][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.13-13.27.18:623][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.04.13-13.27.18:631][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.04.13-13.27.18:646][  0]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.13-13.27.18:704][  0]LogInit: FAudioDevice initialized.
+[2019.04.13-13.27.18:704][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.04.13-13.27.18:827][  0]LogDerivedDataCache: Saved boot cache 0.12s 72MB C:/Users/14035/AppData/Local/UnrealEngine/4.20/DerivedDataCache/Boot.ddc.
+[2019.04.13-13.27.18:835][  0]LogInit: Texture streaming: Enabled
+[2019.04.13-13.27.18:845][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.04.13-13.27.18:858][  0]LogInit: Transaction tracking system initialized
+[2019.04.13-13.27.18:870][  0]BlueprintLog: New page: 编辑器加载
+[2019.04.13-13.27.18:919][  0]LocalizationService: 本地化服务已禁用
+[2019.04.13-13.27.19:074][  0]LogLinker: Warning: 无法找到文件 '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2019.04.13-13.27.19:074][  0]LogLinker: Warning: 无法找到文件 '/Game/ThirdPersonBP/ThirdPersonOverview'
+[2019.04.13-13.27.19:074][  0]LogUObjectGlobals: Warning: 寻找对象 'Class /Game/ThirdPersonBP/ThirdPersonOverview.ThirdPersonOverview_C’ 失败
+[2019.04.13-13.27.19:263][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.04.13-13.27.19:263][  0]LogCook: Display: Mobile HDR setting 1
+[2019.04.13-13.27.19:263][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.04.13-13.27.19:263][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.04.13-13.27.19:263][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.04.13-13.27.19:263][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.04.13-13.27.19:263][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.04.13-13.27.19:348][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/DoubleRockerGame/Content/' took 0.02s
+[2019.04.13-13.27.19:348][  0]SourceControl: 源码管理已禁用
+[2019.04.13-13.27.19:348][  0]Cmd: MAP LOAD FILE="../../../../../Unreal Projects/DoubleRockerGame/Content/Map/DoubleRockerGame.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.04.13-13.27.19:371][  0]LightingResults: New page: 光照构建
+[2019.04.13-13.27.19:373][  0]MapCheck: New page: 地图检测
+[2019.04.13-13.27.19:373][  0]LightingResults: New page: 光照构建
+[2019.04.13-13.27.21:004][  0]LogTexture: Display: 正在编译纹理：LQ_Lightmap_0_1（DXT1、1024X1024）
+[2019.04.13-13.27.21:004][  0]LogTexture: Display: 正在编译纹理：LQ_Lightmap_0_2（DXT1、64X64）
+[2019.04.13-13.27.21:004][  0]LogTexture: Display: 正在编译纹理：HQ_Lightmap0_1（AutoDXT、1024X1024）
+[2019.04.13-13.27.21:004][  0]LogTexture: Display: 正在编译纹理：HQ_Lightmap0_2（AutoDXT、64X64）
+[2019.04.13-13.27.21:004][  0]LogTexture: Display: 正在编译纹理：ShadowMapTexture2D_5（G8、32X32）
+[2019.04.13-13.27.21:004][  0]LogTexture: Display: 正在编译纹理：ShadowMapTexture2D_4（G8、1024X256）
+[2019.04.13-13.27.21:228][  0]LogStaticMesh: 正在构建静态网格体 Linear_Stair_StaticMesh……
+[2019.04.13-13.27.21:273][  0]LogStaticMesh: Built static mesh [0.05s] /Game/DoubleRockerGame/StaticMesh/Linear_Stair_StaticMesh.Linear_Stair_StaticMesh
+[2019.04.13-13.27.21:363][  0]LogMaterial: Display: Missing cached shader map for material LostGame, compiling. 
+[2019.04.13-13.27.21:504][  0]LogShaderCompilers: Display: Shaders left to compile 60
+[2019.04.13-13.27.21:504][  0]LogShaderCompilers: Display: Shaders left to compile 50
+[2019.04.13-13.27.21:504][  0]LogShaderCompilers: Display: Shaders left to compile 40
+[2019.04.13-13.27.21:504][  0]LogMaterial: Display: Missing cached shader map for material GunMan, compiling. 
+[2019.04.13-13.27.21:544][  0]LogMaterial: Display: Missing cached shader map for material Enemy, compiling. 
+[2019.04.13-13.27.21:888][  0]LogAIModule: Creating AISystem for world DoubleRockerGame
+[2019.04.13-13.27.21:893][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.04.13-13.27.21:914][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.04.13-13.27.21:981][  0]MapCheck: 地图检测完成：0个错误，0 个警告，用时66.048毫秒完成。
+[2019.04.13-13.27.21:981][  0]LogFileHelpers: Loading map 'DoubleRockerGame' took 2.633
+[2019.04.13-13.27.22:389][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.13-13.27.22:396][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.13-13.27.22:403][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.13-13.27.22:409][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.13-13.27.22:431][  0]LogCollectionManager: Loaded 0 collections in 0.011640 seconds
+[2019.04.13-13.27.22:538][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/DoubleRockerGame/Saved/Collections/' took 0.01s
+[2019.04.13-13.27.22:538][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/DoubleRockerGame/Content/Developers/14035/Collections/' took 0.01s
+[2019.04.13-13.27.22:538][  0]LogFileCache: Scanning file cache for directory 'D:/Unreal Projects/DoubleRockerGame/Content/Collections/' took 0.01s
+[2019.04.13-13.27.22:538][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.04.13-13.27.22:546][  0]LogContentBrowser: Native class hierarchy populated in 0.0080 seconds. Added 2572 classes and 603 folders.
+[2019.04.13-13.27.22:589][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.13-13.27.23:578][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.13-13.27.23:609][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.04.13-13.27.24:217][  0]LogShaderCompilers: Display: Shaders left to compile 112
+[2019.04.13-13.27.24:217][  0]LogShaderCompilers: Display: Shaders left to compile 102
+[2019.04.13-13.27.24:231][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.04.13-13.27.24:231][  0]LogLoad: (Engine Initialization) Total time: 13.53 seconds
+[2019.04.13-13.27.24:231][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.04.13-13.27.24:317][  0]LogAssetRegistry: Asset discovery search completed in 8.4186 seconds
+[2019.04.13-13.27.24:318][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.04.13-13.27.24:318][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000047 seconds (updated 0 objects)
+[2019.04.13-13.27.24:351][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2019.04.13-13.27.24:359][  0]LogSlate: Took 0.000199 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.04.13-13.27.24:362][  0]LogSlate: Took 0.001548 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansFallback.ttf' (3848K)
+[2019.04.13-13.27.24:362][  0]LogSlate: Took 0.000190 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.04.13-13.27.24:390][  0]LogSlate: Took 0.012839 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.04.13-13.27.24:595][  0]LogRenderer: Reallocating scene render targets to support 768x360 Format 10 NumSamples 1 (Frame:1).
+[2019.04.13-13.27.24:595][  0]LogSlate: Took 0.035591 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.13-13.27.24:754][  7]LogShaderCompilers: Display: Shaders left to compile 92
+[2019.04.13-13.27.26:099][132]LogShaderCompilers: Display: Shaders left to compile 82
+[2019.04.13-13.27.26:736][200]LogShaderCompilers: Display: Shaders left to compile 72
+[2019.04.13-13.27.27:233][248]LogShaderCompilers: Display: Shaders left to compile 62
+[2019.04.13-13.27.28:617][396]LogShaderCompilers: Display: Shaders left to compile 52
+[2019.04.13-13.27.28:721][407]LogShaderCompilers: Display: Shaders left to compile 42
+[2019.04.13-13.27.30:072][550]LogShaderCompilers: Display: Shaders left to compile 32
+[2019.04.13-13.27.30:601][604]LogShaderCompilers: Display: Shaders left to compile 22
+[2019.04.13-13.27.31:888][731]LogShaderCompilers: Display: Shaders left to compile 12
+[2019.04.13-13.27.32:141][756]LogShaderCompilers: Display: Shaders left to compile 2
+[2019.04.13-13.27.35:531][943]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.13-13.27.35:593][943]LogRenderer: Reallocating scene render targets to support 1156x576 Format 10 NumSamples 1 (Frame:940).
+[2019.04.13-13.27.36:398][ 30]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x401)
+[2019.04.13-13.27.37:259][ 69]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.13-13.27.39:000][278]Cmd: SELECT NONE
+[2019.04.13-13.27.39:129][292]Cmd: SELECT NONE
+[2019.04.13-13.27.39:237][305]Cmd: SELECT NONE
+[2019.04.13-13.28.05:319][346]LogTemp: Repeating last play command: 选中的视口
+[2019.04.13-13.28.05:344][346]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.28.05:344][346]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.13-13.28.05:377][346]PIE: New page: PIE会话: DoubleRockerGame (2019年4月14日 上午5:28:05)
+[2019.04.13-13.28.05:377][346]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_DoubleRockerGame
+[2019.04.13-13.28.05:410][346]LogPlayLevel: PIE: StaticDuplicateObject took: (0.033363s)
+[2019.04.13-13.28.05:411][346]LogAIModule: Creating AISystem for world DoubleRockerGame
+[2019.04.13-13.28.05:411][346]LogPlayLevel: PIE: World Init took: (0.000581s)
+[2019.04.13-13.28.05:411][346]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/DoubleRockerGame.DoubleRockerGame to /Game/Map/UEDPIE_0_DoubleRockerGame.DoubleRockerGame (0.034087s)
+[2019.04.13-13.28.05:458][346]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.13-13.28.05:471][346]LogInit: FAudioDevice initialized.
+[2019.04.13-13.28.05:533][346]LogLoad: Game class is 'DoubbleRockerGameMode_C'
+[2019.04.13-13.28.05:547][346]LogWorld: Bringing World /Game/Map/UEDPIE_0_DoubleRockerGame.DoubleRockerGame up for play (max tick rate 0) at 2019.04.13-21.28.05
+[2019.04.13-13.28.05:547][346]LogWorld: Bringing up level for play took: 0.000784
+[2019.04.13-13.28.05:608][346]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 10 classes and 0 folders.
+[2019.04.13-13.28.05:690][346]PIE: /Game/Map/UEDPIE_0_DoubleRockerGame的‘在编辑器中播放’的起始时间-0.178
+[2019.04.13-13.28.05:690][346]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.28.07:369][532]LogScript: Warning: “无访问”正在尝试读取属性 K2Node_DynamicCast_AsGun_Man
+	DoubleRockerGame_C /Game/Map/UEDPIE_0_DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame_C_21
+	Function /Game/Map/DoubleRockerGame.DoubleRockerGame_C:ExecuteUbergraph_DoubleRockerGame:007B
+[2019.04.13-13.28.07:369][532]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_DynamicCast_AsGun_Man"。 蓝图： DoubleRockerGame 函数： Execute Ubergraph Double Rocker Game 图表： EventGraph 节点： 分支
+[2019.04.13-13.28.24:460][559]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.13-13.28.24:578][573]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.28.24:578][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.13-13.28.24:607][573]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.13-13.28.24:607][573]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.28.24:641][573]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.13-13.28.24:678][574]LogPlayLevel: Display: Destroying online subsystem :Context_3
+[2019.04.13-13.28.25:142][599]LogTemp: Repeating last play command: 选中的视口
+[2019.04.13-13.28.25:161][599]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.28.25:161][599]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.13-13.28.25:161][599]PIE: New page: PIE会话: DoubleRockerGame (2019年4月14日 上午5:28:25)
+[2019.04.13-13.28.25:161][599]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_DoubleRockerGame
+[2019.04.13-13.28.25:165][599]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003798s)
+[2019.04.13-13.28.25:165][599]LogAIModule: Creating AISystem for world DoubleRockerGame
+[2019.04.13-13.28.25:166][599]LogPlayLevel: PIE: World Init took: (0.000618s)
+[2019.04.13-13.28.25:166][599]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/DoubleRockerGame.DoubleRockerGame to /Game/Map/UEDPIE_0_DoubleRockerGame.DoubleRockerGame (0.004534s)
+[2019.04.13-13.28.25:217][599]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.13-13.28.25:264][599]LogInit: FAudioDevice initialized.
+[2019.04.13-13.28.25:292][599]LogLoad: Game class is 'DoubbleRockerGameMode_C'
+[2019.04.13-13.28.25:293][599]LogWorld: Bringing World /Game/Map/UEDPIE_0_DoubleRockerGame.DoubleRockerGame up for play (max tick rate 0) at 2019.04.13-21.28.25
+[2019.04.13-13.28.25:294][599]LogWorld: Bringing up level for play took: 0.000783
+[2019.04.13-13.28.25:307][599]PIE: /Game/Map/UEDPIE_0_DoubleRockerGame的‘在编辑器中播放’的起始时间-0.561
+[2019.04.13-13.28.25:307][599]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.28.27:148][818]LogScript: Warning: “无访问”正在尝试读取属性 K2Node_DynamicCast_AsGun_Man
+	DoubleRockerGame_C /Game/Map/UEDPIE_0_DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame_C_21
+	Function /Game/Map/DoubleRockerGame.DoubleRockerGame_C:ExecuteUbergraph_DoubleRockerGame:007B
+[2019.04.13-13.28.27:148][818]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_DynamicCast_AsGun_Man"。 蓝图： DoubleRockerGame 函数： Execute Ubergraph Double Rocker Game 图表： EventGraph 节点： 分支
+[2019.04.13-13.28.36:870][981]LogCharacterMovement: EnemyCharater_C_1 is stuck and failed to move! Velocity: X=-28.92 Y=-18.14 Z=0.00 Location: X=-410.96 Y=-289.91 Z=48.05 Normal: X=-0.84 Y=-0.55 Z=-0.05 PenetrationDepth:10.336 Actor:EnemyCharater_C_2 Component:Muzzle BoneName:None (0 other events since notify)
+[2019.04.13-13.28.37:820][ 95]LogCharacterMovement: EnemyCharater_C_2 is stuck and failed to move! Velocity: X=1.06 Y=68.32 Z=0.00 Location: X=-288.29 Y=-147.81 Z=48.04 Normal: X=0.45 Y=0.89 Z=-0.04 PenetrationDepth:4.049 Actor:EnemyCharater_C_1 Component:Muzzle BoneName:None (0 other events since notify)
+[2019.04.13-13.28.40:155][375]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-645.551 Y=62.299 Z=49.991] for [EnemyProjectile_C]
+[2019.04.13-13.28.41:156][494]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=-839.954 Y=-56.213 Z=49.988] for [EnemyProjectile_C]
+[2019.04.13-13.28.41:363][519]LogCharacterMovement: EnemyCharater_C_1 is stuck and failed to move! Velocity: X=-138.66 Y=-97.11 Z=0.00 Location: X=-840.77 Y=-123.62 Z=48.15 Normal: X=0.94 Y=0.33 Z=-0.05 PenetrationDepth:15.002 Actor:EnemyCharater_C_0 Component:Muzzle BoneName:None (56 other events since notify)
+[2019.04.13-13.28.42:363][639]LogCharacterMovement: EnemyCharater_C_1 is stuck and failed to move! Velocity: X=224.68 Y=-146.44 Z=0.00 Location: X=-816.81 Y=-137.32 Z=48.00 Normal: X=0.96 Y=0.26 Z=-0.05 PenetrationDepth:13.269 Actor:EnemyCharater_C_0 Component:Muzzle BoneName:None (103 other events since notify)
+[2019.04.13-13.28.45:530][ 19]LogCharacterMovement: EnemyCharater_C_3 is stuck and failed to move! Velocity: X=-227.68 Y=-41.32 Z=0.00 Location: X=-464.66 Y=327.05 Z=48.07 Normal: X=0.50 Y=0.87 Z=-0.04 PenetrationDepth:1.023 Actor:EnemyCharater_C_4 Component:Muzzle BoneName:None (0 other events since notify)
+[2019.04.13-13.28.56:087][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.13-13.28.56:087][284]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.28.56:116][284]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.13-13.28.56:117][284]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.28.56:139][284]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.13-13.28.56:177][286]LogPlayLevel: Display: Destroying online subsystem :Context_4
+[2019.04.13-13.28.58:119][517]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.13-13.28.58:539][559]LogSlate: Took 0.000210 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.04.13-13.28.59:081][619]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.13-13.28.59:085][619]LogAssetEditorManager: Opening Asset editor for LevelScriptBlueprint /Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame
+[2019.04.13-13.28.59:916][619]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 116 classes and 0 folders.
+[2019.04.13-13.29.00:864][619]LogSlate: Took 0.009832 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.04.13-13.29.01:015][620]LogSlate: Took 0.010013 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.04.13-13.29.20:733][955]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x401)
+[2019.04.13-13.29.25:395][360]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.13-13.29.46:301][834]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.13-13.29.46:409][847]LogTemp: Repeating last play command: 选中的视口
+[2019.04.13-13.29.46:428][847]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.29.46:428][847]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.13-13.29.46:428][847]PIE: New page: PIE会话: DoubleRockerGame (2019年4月14日 上午5:29:46)
+[2019.04.13-13.29.46:428][847]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_DoubleRockerGame
+[2019.04.13-13.29.46:434][847]LogPlayLevel: PIE: StaticDuplicateObject took: (0.006049s)
+[2019.04.13-13.29.46:434][847]LogAIModule: Creating AISystem for world DoubleRockerGame
+[2019.04.13-13.29.46:435][847]LogPlayLevel: PIE: World Init took: (0.000611s)
+[2019.04.13-13.29.46:435][847]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/DoubleRockerGame.DoubleRockerGame to /Game/Map/UEDPIE_0_DoubleRockerGame.DoubleRockerGame (0.006775s)
+[2019.04.13-13.29.46:470][847]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.13-13.29.46:483][847]LogInit: FAudioDevice initialized.
+[2019.04.13-13.29.46:509][847]LogLoad: Game class is 'DoubbleRockerGameMode_C'
+[2019.04.13-13.29.46:511][847]LogWorld: Bringing World /Game/Map/UEDPIE_0_DoubleRockerGame.DoubleRockerGame up for play (max tick rate 0) at 2019.04.13-21.29.46
+[2019.04.13-13.29.46:511][847]LogWorld: Bringing up level for play took: 0.000712
+[2019.04.13-13.29.46:525][847]PIE: /Game/Map/UEDPIE_0_DoubleRockerGame的‘在编辑器中播放’的起始时间0.657
+[2019.04.13-13.29.46:525][847]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.29.48:410][ 71]LogScript: Warning: “无访问”正在尝试读取属性 K2Node_DynamicCast_AsGun_Man
+	DoubleRockerGame_C /Game/Map/UEDPIE_0_DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame_C_21
+	Function /Game/Map/DoubleRockerGame.DoubleRockerGame_C:ExecuteUbergraph_DoubleRockerGame:007B
+[2019.04.13-13.29.48:410][ 71]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_DynamicCast_AsGun_Man"。 蓝图： DoubleRockerGame 函数： Execute Ubergraph Double Rocker Game 图表： EventGraph 节点： 分支
+[2019.04.13-13.29.53:904][729]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.29.53:904][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.13-13.29.53:941][729]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.13-13.29.53:942][729]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.29.53:982][729]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.13-13.29.54:004][730]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.04.13-13.29.55:642][924]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.13-13.29.56:136][983]LogTemp: Repeating last play command: 选中的视口
+[2019.04.13-13.29.56:155][983]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.29.56:155][983]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.13-13.29.56:155][983]PIE: New page: PIE会话: DoubleRockerGame (2019年4月14日 上午5:29:56)
+[2019.04.13-13.29.56:155][983]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_DoubleRockerGame
+[2019.04.13-13.29.56:159][983]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003678s)
+[2019.04.13-13.29.56:159][983]LogAIModule: Creating AISystem for world DoubleRockerGame
+[2019.04.13-13.29.56:160][983]LogPlayLevel: PIE: World Init took: (0.000531s)
+[2019.04.13-13.29.56:160][983]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/DoubleRockerGame.DoubleRockerGame to /Game/Map/UEDPIE_0_DoubleRockerGame.DoubleRockerGame (0.004317s)
+[2019.04.13-13.29.56:189][983]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.13-13.29.56:202][983]LogInit: FAudioDevice initialized.
+[2019.04.13-13.29.56:236][983]LogLoad: Game class is 'DoubbleRockerGameMode_C'
+[2019.04.13-13.29.56:238][983]LogWorld: Bringing World /Game/Map/UEDPIE_0_DoubleRockerGame.DoubleRockerGame up for play (max tick rate 0) at 2019.04.13-21.29.56
+[2019.04.13-13.29.56:238][983]LogWorld: Bringing up level for play took: 0.000695
+[2019.04.13-13.29.56:251][983]PIE: /Game/Map/UEDPIE_0_DoubleRockerGame的‘在编辑器中播放’的起始时间0.383
+[2019.04.13-13.29.56:251][983]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.29.58:144][208]LogScript: Warning: “无访问”正在尝试读取属性 K2Node_DynamicCast_AsGun_Man
+	DoubleRockerGame_C /Game/Map/UEDPIE_0_DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame_C_21
+	Function /Game/Map/DoubleRockerGame.DoubleRockerGame_C:ExecuteUbergraph_DoubleRockerGame:007B
+[2019.04.13-13.29.58:144][208]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_DynamicCast_AsGun_Man"。 蓝图： DoubleRockerGame 函数： Execute Ubergraph Double Rocker Game 图表： EventGraph 节点： 分支
+[2019.04.13-13.30.00:513][490]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.30.00:514][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.13-13.30.00:549][490]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.13-13.30.00:549][490]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.30.00:574][490]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.13-13.30.00:619][493]LogPlayLevel: Display: Destroying online subsystem :Context_11
+[2019.04.13-13.30.02:232][686]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.13-13.30.02:315][696]LogTemp: Repeating last play command: 选中的视口
+[2019.04.13-13.30.02:334][696]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.30.02:334][696]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.13-13.30.02:334][696]PIE: New page: PIE会话: DoubleRockerGame (2019年4月14日 上午5:30:02)
+[2019.04.13-13.30.02:334][696]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_DoubleRockerGame
+[2019.04.13-13.30.02:338][696]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003645s)
+[2019.04.13-13.30.02:338][696]LogAIModule: Creating AISystem for world DoubleRockerGame
+[2019.04.13-13.30.02:338][696]LogPlayLevel: PIE: World Init took: (0.000526s)
+[2019.04.13-13.30.02:338][696]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/DoubleRockerGame.DoubleRockerGame to /Game/Map/UEDPIE_0_DoubleRockerGame.DoubleRockerGame (0.004275s)
+[2019.04.13-13.30.02:370][696]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.13-13.30.02:383][696]LogInit: FAudioDevice initialized.
+[2019.04.13-13.30.02:418][696]LogLoad: Game class is 'DoubbleRockerGameMode_C'
+[2019.04.13-13.30.02:419][696]LogWorld: Bringing World /Game/Map/UEDPIE_0_DoubleRockerGame.DoubleRockerGame up for play (max tick rate 0) at 2019.04.13-21.30.02
+[2019.04.13-13.30.02:419][696]LogWorld: Bringing up level for play took: 0.000703
+[2019.04.13-13.30.02:436][696]PIE: /Game/Map/UEDPIE_0_DoubleRockerGame的‘在编辑器中播放’的起始时间0.568
+[2019.04.13-13.30.02:436][696]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.30.04:318][920]LogScript: Warning: “无访问”正在尝试读取属性 K2Node_DynamicCast_AsGun_Man
+	DoubleRockerGame_C /Game/Map/UEDPIE_0_DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame_C_21
+	Function /Game/Map/DoubleRockerGame.DoubleRockerGame_C:ExecuteUbergraph_DoubleRockerGame:007B
+[2019.04.13-13.30.04:318][920]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_DynamicCast_AsGun_Man"。 蓝图： DoubleRockerGame 函数： Execute Ubergraph Double Rocker Game 图表： EventGraph 节点： 分支
+[2019.04.13-13.30.15:052][208]LogCharacterMovement: EnemyCharater_C_1 is stuck and failed to move! Velocity: X=-105.02 Y=157.83 Z=0.00 Location: X=-585.12 Y=-449.20 Z=46.08 Normal: X=-0.34 Y=-0.68 Z=-0.66 PenetrationDepth:0.534 Actor:EnemyCharater_C_2 Component:Muzzle BoneName:None (0 other events since notify)
+[2019.04.13-13.30.16:061][329]LogCharacterMovement: EnemyCharater_C_0 is stuck and failed to move! Velocity: X=-254.24 Y=1.12 Z=0.00 Location: X=-877.70 Y=-135.61 Z=48.20 Normal: X=-0.45 Y=-0.89 Z=-0.04 PenetrationDepth:2.097 Actor:EnemyProjectile_C_34 Component:Sphere Collision BoneName:None (0 other events since notify)
+[2019.04.13-13.30.20:744][891]LogCharacterMovement: EnemyCharater_C_3 is stuck and failed to move! Velocity: X=-179.19 Y=201.96 Z=0.00 Location: X=-369.48 Y=182.66 Z=48.12 Normal: X=1.00 Y=-0.04 Z=-0.04 PenetrationDepth:2.382 Actor:GunManProjectile_C_7 Component:Sphere Collision BoneName:None (0 other events since notify)
+[2019.04.13-13.30.23:163][181]LogCharacterMovement: EnemyCharater_C_1 is stuck and failed to move! Velocity: X=-102.11 Y=-249.95 Z=0.00 Location: X=-435.44 Y=51.13 Z=48.01 Normal: X=-0.47 Y=0.88 Z=-0.04 PenetrationDepth:2.635 Actor:GunManProjectile_C_9 Component:Sphere Collision BoneName:None (10 other events since notify)
+[2019.04.13-13.30.23:163][181]LogCharacterMovement: EnemyCharater_C_2 is stuck and failed to move! Velocity: X=225.69 Y=-148.20 Z=0.00 Location: X=-423.80 Y=142.55 Z=48.14 Normal: X=-0.76 Y=-0.65 Z=-0.04 PenetrationDepth:1.922 Actor:EnemyCharater_C_4 Component:Muzzle BoneName:None (0 other events since notify)
+[2019.04.13-13.30.34:378][527]LogCharacterMovement: EnemyCharater_C_5 is stuck and failed to move! Velocity: X=-16.37 Y=-4.82 Z=0.00 Location: X=-1111.84 Y=9.48 Z=48.15 Normal: X=-0.92 Y=0.38 Z=-0.04 PenetrationDepth:4.015 Actor:EnemyProjectile_C_116 Component:Sphere Collision BoneName:None (0 other events since notify)
+[2019.04.13-13.30.35:529][665]LogCharacterMovement: EnemyCharater_C_7 is stuck and failed to move! Velocity: X=-102.56 Y=-74.23 Z=0.00 Location: X=-1045.78 Y=-54.54 Z=47.95 Normal: X=-0.85 Y=-0.52 Z=-0.04 PenetrationDepth:3.026 Actor:EnemyProjectile_C_122 Component:Sphere Collision BoneName:None (0 other events since notify)
+[2019.04.13-13.30.37:063][849]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.30.37:063][849]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.13-13.30.37:100][849]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.13-13.30.37:100][849]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.30.37:125][849]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.13-13.30.37:167][853]LogPlayLevel: Display: Destroying online subsystem :Context_12
+[2019.04.13-13.30.38:063][960]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.04.13-13.30.48:660][221]LogTemp: Repeating last play command: 选中的视口
+[2019.04.13-13.30.48:679][221]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.30.48:679][221]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.04.13-13.30.48:680][221]PIE: New page: PIE会话: DoubleRockerGame (2019年4月14日 上午5:30:48)
+[2019.04.13-13.30.48:680][221]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_DoubleRockerGame
+[2019.04.13-13.30.48:683][221]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003705s)
+[2019.04.13-13.30.48:684][221]LogAIModule: Creating AISystem for world DoubleRockerGame
+[2019.04.13-13.30.48:684][221]LogPlayLevel: PIE: World Init took: (0.000557s)
+[2019.04.13-13.30.48:684][221]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/DoubleRockerGame.DoubleRockerGame to /Game/Map/UEDPIE_0_DoubleRockerGame.DoubleRockerGame (0.004370s)
+[2019.04.13-13.30.48:714][221]LogInit: XAudio2 using '扬声器 (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2019.04.13-13.30.48:727][221]LogInit: FAudioDevice initialized.
+[2019.04.13-13.30.48:760][221]LogLoad: Game class is 'DoubbleRockerGameMode_C'
+[2019.04.13-13.30.48:761][221]LogWorld: Bringing World /Game/Map/UEDPIE_0_DoubleRockerGame.DoubleRockerGame up for play (max tick rate 0) at 2019.04.13-21.30.48
+[2019.04.13-13.30.48:761][221]LogWorld: Bringing up level for play took: 0.000674
+[2019.04.13-13.30.48:775][221]PIE: /Game/Map/UEDPIE_0_DoubleRockerGame的‘在编辑器中播放’的起始时间0.907
+[2019.04.13-13.30.48:775][221]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.30.50:665][446]LogScript: Warning: “无访问”正在尝试读取属性 K2Node_DynamicCast_AsGun_Man
+	DoubleRockerGame_C /Game/Map/UEDPIE_0_DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame_C_21
+	Function /Game/Map/DoubleRockerGame.DoubleRockerGame_C:ExecuteUbergraph_DoubleRockerGame:007B
+[2019.04.13-13.30.50:665][446]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_DynamicCast_AsGun_Man"。 蓝图： DoubleRockerGame 函数： Execute Ubergraph Double Rocker Game 图表： EventGraph 节点： 分支
+[2019.04.13-13.30.54:667][926]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=818.641 Y=84.261 Z=24.526] for [EnemyCharater_C]
+[2019.04.13-13.31.09:333][686]LogNet: Browse: /Game/Map/DoubleRockerGame
+[2019.04.13-13.31.09:333][686]LogLoad: LoadMap: /Game/Map/DoubleRockerGame
+[2019.04.13-13.31.09:360][686]LogPlayLevel: Creating play world package: /Game/Map/UEDPIE_0_DoubleRockerGame
+[2019.04.13-13.31.09:363][686]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003558s)
+[2019.04.13-13.31.09:364][686]LogAIModule: Creating AISystem for world DoubleRockerGame
+[2019.04.13-13.31.09:364][686]LogPlayLevel: PIE: World Init took: (0.000582s)
+[2019.04.13-13.31.09:364][686]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/Map/DoubleRockerGame.DoubleRockerGame to /Game/Map/UEDPIE_0_DoubleRockerGame.DoubleRockerGame (0.004283s)
+[2019.04.13-13.31.09:364][686]LogLoad: Game class is 'DoubbleRockerGameMode_C'
+[2019.04.13-13.31.09:365][686]LogWorld: Bringing World /Game/Map/UEDPIE_0_DoubleRockerGame.DoubleRockerGame up for play (max tick rate 0) at 2019.04.13-21.31.09
+[2019.04.13-13.31.09:366][686]LogWorld: Bringing up level for play took: 0.000704
+[2019.04.13-13.31.09:367][686]LogLoad: Took 0.033846 seconds to LoadMap(/Game/Map/UEDPIE_0_DoubleRockerGame)
+[2019.04.13-13.31.11:338][922]LogScript: Warning: “无访问”正在尝试读取属性 K2Node_DynamicCast_AsGun_Man
+	DoubleRockerGame_C /Game/Map/UEDPIE_0_DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame_C_21
+	Function /Game/Map/DoubleRockerGame.DoubleRockerGame_C:ExecuteUbergraph_DoubleRockerGame:007B
+[2019.04.13-13.31.11:338][922]PIE: Error: 蓝图运行时错误："“无访问”正在尝试读取属性 K2Node_DynamicCast_AsGun_Man"。 蓝图： DoubleRockerGame 函数： Execute Ubergraph Double Rocker Game 图表： EventGraph 节点： 分支
+[2019.04.13-13.31.26:760][770]LogSpawn: Warning: SpawnActor failed because of collision at the spawn location [X=210.183 Y=383.051 Z=50.150] for [GunManProjectile_C]
+[2019.04.13-13.31.27:360][842]LogCharacterMovement: EnemyCharater_C_4 is stuck and failed to move! Velocity: X=8.09 Y=33.16 Z=0.00 Location: X=128.81 Y=224.22 Z=48.00 Normal: X=-0.05 Y=1.00 Z=-0.07 PenetrationDepth:21.815 Actor:EnemyCharater_C_3 Component:Muzzle BoneName:None (0 other events since notify)
+[2019.04.13-13.31.33:860][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.13-13.31.33:861][622]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.31.33:894][622]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.04.13-13.31.33:895][622]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel' has LevelScriptBlueprint '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame' with GeneratedClass '/Game/Map/DoubleRockerGame.DoubleRockerGame_C' with ClassGeneratedBy '/Game/Map/DoubleRockerGame.DoubleRockerGame:PersistentLevel.DoubleRockerGame'
+[2019.04.13-13.31.33:920][622]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.04.13-13.31.33:965][625]LogPlayLevel: Display: Destroying online subsystem :Context_13
+[2019.04.13-13.31.35:541][811]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.04.13-13.31.45:038][417]LogUProjectInfo: Found projects:
+[2019.04.13-13.31.49:620][964]Cmd: CLOSE_SLATE_MAINFRAME
+[2019.04.13-13.31.51:557][964]LogSlate: Window '保存内容' being destroyed
+[2019.04.13-13.31.51:678][964]LogSlate: Window 'DoubleRockerGame* - 关卡蓝图编辑器' being destroyed
+[2019.04.13-13.31.51:728][964]LogSlate: Window '打开项目' being destroyed
+[2019.04.13-13.31.51:731][964]LogSlate: Window 'DoubleRockerGame - 虚幻编辑器' being destroyed
+[2019.04.13-13.31.51:942][965]Cmd: QUIT_EDITOR
+[2019.04.13-13.31.52:777][965]LogWindowsTextInputMethodSystem: Display: IME system now activated using TSF (微软拼音).
+[2019.04.13-13.31.52:789][965]LogExit: Preparing to exit.
+[2019.04.13-13.31.53:244][965]LogExit: Editor shut down
+[2019.04.13-13.31.53:245][965]LogExit: Transaction tracking system shut down
+[2019.04.13-13.31.53:515][965]LogExit: Object subsystem successfully closed.
+[2019.04.13-13.31.53:526][965]LogShaderCompilers: Display: Shaders left to compile 0
+[2019.04.13-13.31.53:528][965]LogD3D11RHI: Shutdown
+[2019.04.13-13.31.53:528][965]LogD3D11RHI: CleanupD3DDevice
+[2019.04.13-13.31.53:530][965]LogD3D11RHI: ~FD3D11DynamicRHI
+[2019.04.13-13.31.53:538][965]LogModuleManager: Shutting down and abandoning module BlueprintGraph (618)
+[2019.04.13-13.31.53:538][965]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (616)
+[2019.04.13-13.31.53:538][965]LogModuleManager: Shutting down and abandoning module Voice (614)
+[2019.04.13-13.31.53:538][965]LogModuleManager: Shutting down and abandoning module HierarchicalLODOutliner (612)
+[2019.04.13-13.31.53:538][965]LogModuleManager: Shutting down and abandoning module SceneOutliner (610)
+[2019.04.13-13.31.53:538][965]LogModuleManager: Shutting down and abandoning module AddContentDialog (608)
+[2019.04.13-13.31.53:538][965]LogModuleManager: Shutting down and abandoning module WidgetCarousel (607)
+[2019.04.13-13.31.53:538][965]LogModuleManager: Shutting down and abandoning module EditorWidgets (604)
+[2019.04.13-13.31.53:538][965]LogModuleManager: Shutting down and abandoning module CollectionManager (602)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module MeshBuilder (600)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module StatsViewer (598)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module FoliageEdit (596)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module LandscapeEditor (594)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module MeshPaintMode (592)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module SceneDepthPickerMode (590)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module ActorPickerMode (588)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module GeometryMode (586)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module TextureAlignMode (584)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module BspMode (582)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module PIEPreviewDeviceProfileSelector (580)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module SequenceRecorderSections (578)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module AutomationWorker (576)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module AudioCaptureEditor (574)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module SequenceRecorder (573)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module MatineeToLevelSequence (570)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module LevelSequenceEditor (568)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module PlacementMode (567)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module MaterialEditor (566)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module WmfMediaFactory (562)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module WmfMediaEditor (560)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (558)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module OpenExrWrapper (556)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module ImgMediaFactory (554)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module ImgMediaEditor (552)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module AvfMediaFactory (550)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module AvfMediaEditor (548)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module AndroidMediaFactory (546)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module AndroidMediaEditor (544)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module MagicLeapCameraPreviewFactory (542)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module MagicLeapMediaFactory (540)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module MagicLeapMediaEditor (538)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module CharacterAI (536)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module SmartSnapping (534)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module SessionServices (532)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module ViewportSnapping (530)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module ViewportInteraction (528)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module ClothPainter (526)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module SkeletalMeshEditor (525)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module LogVisualizer (522)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module IntroTutorials (520)
+[2019.04.13-13.31.53:539][965]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (519)
+[2019.04.13-13.31.53:540][965]LogModuleManager: Shutting down and abandoning module LuminPlatformEditor (516)
+[2019.04.13-13.31.53:540][965]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (514)
+[2019.04.13-13.31.53:540][965]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (512)
+[2019.04.13-13.31.53:540][965]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (510)
+[2019.04.13-13.31.53:540][965]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (509)
+[2019.04.13-13.31.54:101][965]LogModuleManager: Shutting down and abandoning module WindowsPlatformEditor (506)
+[2019.04.13-13.31.54:101][965]LogModuleManager: Shutting down and abandoning module LuminRuntimeSettings (504)
+[2019.04.13-13.31.54:101][965]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (502)
+[2019.04.13-13.31.54:101][965]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (500)
+[2019.04.13-13.31.54:101][965]LogModuleManager: Shutting down and abandoning module InputBindingEditor (498)
+[2019.04.13-13.31.54:101][965]LogModuleManager: Shutting down and abandoning module MergeActors (496)
+[2019.04.13-13.31.54:101][965]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (494)
+[2019.04.13-13.31.54:101][965]LogModuleManager: Shutting down and abandoning module LocalizationService (493)
+[2019.04.13-13.31.54:101][965]LogModuleManager: Shutting down and abandoning module HardwareTargeting (490)
+[2019.04.13-13.31.54:101][965]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (488)
+[2019.04.13-13.31.54:101][965]LogModuleManager: Shutting down and abandoning module UndoHistory (486)
+[2019.04.13-13.31.54:101][965]LogModuleManager: Shutting down and abandoning module XmlParser (484)
+[2019.04.13-13.31.54:101][965]LogModuleManager: Shutting down and abandoning module Blutility (482)
+[2019.04.13-13.31.54:101][965]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (480)
+[2019.04.13-13.31.54:101][965]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (479)
+[2019.04.13-13.31.54:101][965]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (476)
+[2019.04.13-13.31.54:101][965]LogModuleManager: Shutting down and abandoning module SettingsEditor (474)
+[2019.04.13-13.31.54:101][965]LogModuleManager: Shutting down and abandoning module ProjectLauncher (472)
+[2019.04.13-13.31.54:102][965]LogModuleManager: Shutting down and abandoning module SessionFrontend (470)
+[2019.04.13-13.31.54:102][965]LogModuleManager: Shutting down and abandoning module ProfilerClient (468)
+[2019.04.13-13.31.54:102][965]LogModuleManager: Shutting down and abandoning module DeviceManager (466)
+[2019.04.13-13.31.54:102][965]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (465)
+[2019.04.13-13.31.54:157][965]LogModuleManager: Shutting down and abandoning module AutomationController (462)
+[2019.04.13-13.31.54:157][965]LogModuleManager: Shutting down and abandoning module AutomationWindow (460)
+[2019.04.13-13.31.54:157][965]LogModuleManager: Shutting down and abandoning module Layers (458)
+[2019.04.13-13.31.54:157][965]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (456)
+[2019.04.13-13.31.54:157][965]LogModuleManager: Shutting down and abandoning module DetailCustomizations (454)
+[2019.04.13-13.31.54:157][965]LogModuleManager: Shutting down and abandoning module PackagesDialog (452)
+[2019.04.13-13.31.54:157][965]LogModuleManager: Shutting down and abandoning module Persona (450)
+[2019.04.13-13.31.54:157][965]LogModuleManager: Shutting down and abandoning module AdvancedPreviewScene (449)
+[2019.04.13-13.31.54:157][965]LogModuleManager: Shutting down and abandoning module AnimGraph (447)
+[2019.04.13-13.31.54:157][965]LogModuleManager: Shutting down and abandoning module Kismet (444)
+[2019.04.13-13.31.54:160][965]LogModuleManager: Shutting down and abandoning module GraphEditor (442)
+[2019.04.13-13.31.54:160][965]LogModuleManager: Shutting down and abandoning module ClassViewer (440)
+[2019.04.13-13.31.54:160][965]LogModuleManager: Shutting down and abandoning module Toolbox (438)
+[2019.04.13-13.31.54:160][965]LogModuleManager: Shutting down and abandoning module ModuleUI (436)
+[2019.04.13-13.31.54:160][965]LogModuleManager: Shutting down and abandoning module MovieSceneTools (434)
+[2019.04.13-13.31.54:160][965]LogModuleManager: Shutting down and abandoning module OutputLog (432)
+[2019.04.13-13.31.54:160][965]LogModuleManager: Shutting down and abandoning module GammaUI (430)
+[2019.04.13-13.31.54:160][965]LogModuleManager: Shutting down and abandoning module Documentation (428)
+[2019.04.13-13.31.54:160][965]LogModuleManager: Shutting down and abandoning module MovieSceneTracks (426)
+[2019.04.13-13.31.54:160][965]LogModuleManager: Shutting down and abandoning module MovieScene (424)
+[2019.04.13-13.31.54:160][965]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (422)
+[2019.04.13-13.31.54:160][965]LogModuleManager: Shutting down and abandoning module LauncherPlatform (420)
+[2019.04.13-13.31.54:160][965]LogModuleManager: Shutting down and abandoning module AnalyticsET (418)
+[2019.04.13-13.31.54:160][965]LogModuleManager: Shutting down and abandoning module PortalServices (416)
+[2019.04.13-13.31.54:160][965]LogModuleManager: Shutting down and abandoning module PortalRpc (414)
+[2019.04.13-13.31.54:160][965]LogModuleManager: Shutting down and abandoning module MessagingRpc (412)
+[2019.04.13-13.31.54:160][965]LogModuleManager: Shutting down and abandoning module AIModule (410)
+[2019.04.13-13.31.54:161][965]LogModuleManager: Shutting down and abandoning module GameplayDebugger (409)
+[2019.04.13-13.31.54:161][965]LogModuleManager: Shutting down and abandoning module AITestSuite (407)
+[2019.04.13-13.31.54:161][965]LogModuleManager: Shutting down and abandoning module NavigationSystem (405)
+[2019.04.13-13.31.54:161][965]LogModuleManager: Shutting down and abandoning module DesktopPlatform (402)
+[2019.04.13-13.31.54:161][965]LogModuleManager: Shutting down and abandoning module ProfilerService (400)
+[2019.04.13-13.31.54:183][965]LogModuleManager: Shutting down and abandoning module TaskGraph (398)
+[2019.04.13-13.31.54:183][965]LogModuleManager: Shutting down and abandoning module SteamVRController (396)
+[2019.04.13-13.31.54:183][965]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponentEditor (394)
+[2019.04.13-13.31.54:183][965]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (392)
+[2019.04.13-13.31.54:183][965]LogModuleManager: Shutting down and abandoning module OculusInput (390)
+[2019.04.13-13.31.54:183][965]LogModuleManager: Shutting down and abandoning module MobilePatchingUtils (388)
+[2019.04.13-13.31.54:183][965]LogModuleManager: Shutting down and abandoning module EditableMesh (386)
+[2019.04.13-13.31.54:183][965]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (384)
+[2019.04.13-13.31.54:183][965]LogModuleManager: Shutting down and abandoning module CableComponent (382)
+[2019.04.13-13.31.54:183][965]LogModuleManager: Shutting down and abandoning module AudioCapture (380)
+[2019.04.13-13.31.54:183][965]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (378)
+[2019.04.13-13.31.54:183][965]LogModuleManager: Shutting down and abandoning module AndroidPermission (376)
+[2019.04.13-13.31.54:183][965]LogModuleManager: Shutting down and abandoning module NUTUnrealEngine4 (374)
+[2019.04.13-13.31.54:183][965]LogModuleManager: Shutting down and abandoning module NetcodeUnitTest (372)
+[2019.04.13-13.31.54:183][965]LogModuleManager: Shutting down and abandoning module MediaCompositingEditor (370)
+[2019.04.13-13.31.54:183][965]LogModuleManager: Shutting down and abandoning module MediaCompositing (368)
+[2019.04.13-13.31.54:183][965]LogModuleManager: Shutting down and abandoning module LinearTimecode (366)
+[2019.04.13-13.31.54:183][965]LogModuleManager: Shutting down and abandoning module ImgMedia (364)
+[2019.04.13-13.31.54:186][965]LogModuleManager: Shutting down and abandoning module HTML5Networking (362)
+[2019.04.13-13.31.54:186][965]LogModuleManager: Shutting down and abandoning module GeometryCacheTracks (360)
+[2019.04.13-13.31.54:186][965]LogModuleManager: Shutting down and abandoning module GeometryCacheSequencer (358)
+[2019.04.13-13.31.54:186][965]LogModuleManager: Shutting down and abandoning module BackChannel (356)
+[2019.04.13-13.31.54:186][965]LogModuleManager: Shutting down and abandoning module AppleVision (354)
+[2019.04.13-13.31.54:186][965]LogModuleManager: Shutting down and abandoning module AppleImageUtils (352)
+[2019.04.13-13.31.54:186][965]LogModuleManager: Shutting down and abandoning module AlembicImporter (350)
+[2019.04.13-13.31.54:186][965]LogModuleManager: Shutting down and abandoning module AlembicLibrary (349)
+[2019.04.13-13.31.54:186][965]LogModuleManager: Shutting down and abandoning module GeometryCache (348)
+[2019.04.13-13.31.54:186][965]LogModuleManager: Shutting down and abandoning module GeometryCacheEd (347)
+[2019.04.13-13.31.54:186][965]LogModuleManager: Shutting down and abandoning module DatasmithContentEditor (342)
+[2019.04.13-13.31.54:186][965]LogModuleManager: Shutting down and abandoning module DatasmithContent (340)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (338)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module PluginBrowser (336)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module MobileLauncherProfileWizard (334)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module PolygonModeling (332)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module MeshEditor (330)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module CryptoKeysOpenSSL (328)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module CryptoKeys (326)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (324)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module VisualStudioCodeSourceCodeAccess (322)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module UObjectPlugin (320)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (318)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (316)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module GitSourceControl (314)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module SourceControl (313)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module CLionSourceCodeAccess (310)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (308)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (306)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (304)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module Paper2DEditor (302)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module MeshPaint (301)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module RuntimePhysXCooking (298)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module PhysXVehiclesEditor (296)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module PhysXVehicles (294)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module OculusEditor (292)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module LocationServicesBPLibrary (290)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module ImmediatePhysicsEditor (288)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module ImmediatePhysics (286)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module ActorSequence (284)
+[2019.04.13-13.31.54:188][965]LogModuleManager: Shutting down and abandoning module UdpMessaging (282)
+[2019.04.13-13.31.54:288][965]LogModuleManager: Shutting down and abandoning module TcpMessaging (280)
+[2019.04.13-13.31.54:389][965]LogModuleManager: Shutting down and abandoning module MagicLeapAudio (278)
+[2019.04.13-13.31.54:389][965]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (276)
+[2019.04.13-13.31.54:389][965]LogModuleManager: Shutting down and abandoning module FacialAnimationEditor (274)
+[2019.04.13-13.31.54:389][965]LogModuleManager: Shutting down and abandoning module FacialAnimation (272)
+[2019.04.13-13.31.54:389][965]LogModuleManager: Shutting down and abandoning module DataValidation (270)
+[2019.04.13-13.31.54:389][965]LogModuleManager: Shutting down and abandoning module AssetManagerEditor (268)
+[2019.04.13-13.31.54:389][965]LogModuleManager: Shutting down and abandoning module LevelEditor (267)
+[2019.04.13-13.31.54:389][965]LogModuleManager: Shutting down and abandoning module PixelInspectorModule (266)
+[2019.04.13-13.31.54:389][965]LogModuleManager: Shutting down and abandoning module CommonMenuExtensions (264)
+[2019.04.13-13.31.54:389][965]LogModuleManager: Shutting down and abandoning module MainFrame (262)
+[2019.04.13-13.31.54:390][965]LogModuleManager: Shutting down and abandoning module HotReload (261)
+[2019.04.13-13.31.54:390][965]LogModuleManager: Shutting down and abandoning module ContentBrowser (257)
+[2019.04.13-13.31.54:391][965]LogModuleManager: Shutting down and abandoning module TreeMap (255)
+[2019.04.13-13.31.54:391][965]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (252)
+[2019.04.13-13.31.54:391][965]LogModuleManager: Shutting down and abandoning module AISupportModule (250)
+[2019.04.13-13.31.54:391][965]LogModuleManager: Shutting down and abandoning module Paper2D (248)
+[2019.04.13-13.31.54:391][965]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (246)
+[2019.04.13-13.31.54:391][965]LogModuleManager: Shutting down and abandoning module WmfMedia (244)
+[2019.04.13-13.31.54:392][965]LogModuleManager: Shutting down and abandoning module Media (243)
+[2019.04.13-13.31.54:398][965]LogModuleManager: Shutting down and abandoning module PacketHandler (240)
+[2019.04.13-13.31.54:398][965]LogModuleManager: Shutting down and abandoning module ClothingSystemEditor (238)
+[2019.04.13-13.31.54:398][965]LogModuleManager: Shutting down and abandoning module ClothingSystemRuntime (236)
+[2019.04.13-13.31.54:398][965]LogModuleManager: Shutting down and abandoning module MediaAssets (234)
+[2019.04.13-13.31.54:398][965]LogModuleManager: Shutting down and abandoning module Overlay (232)
+[2019.04.13-13.31.54:398][965]LogModuleManager: Shutting down and abandoning module OverlayEditor (231)
+[2019.04.13-13.31.54:398][965]LogModuleManager: Shutting down and abandoning module VREditor (228)
+[2019.04.13-13.31.54:398][965]LogModuleManager: Shutting down and abandoning module StringTableEditor (226)
+[2019.04.13-13.31.54:398][965]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (224)
+[2019.04.13-13.31.54:398][965]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (222)
+[2019.04.13-13.31.54:398][965]LogModuleManager: Shutting down and abandoning module FunctionalTesting (220)
+[2019.04.13-13.31.54:398][965]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (218)
+[2019.04.13-13.31.54:398][965]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (217)
+[2019.04.13-13.31.54:398][965]LogModuleManager: Shutting down and abandoning module UMG (214)
+[2019.04.13-13.31.54:398][965]LogModuleManager: Shutting down and abandoning module UMGEditor (213)
+[2019.04.13-13.31.54:398][965]LogModuleManager: Shutting down and abandoning module Sequencer (212)
+[2019.04.13-13.31.54:399][965]LogModuleManager: Shutting down and abandoning module MessageLog (209)
+[2019.04.13-13.31.54:399][965]LogModuleManager: Shutting down and abandoning module SlateReflector (204)
+[2019.04.13-13.31.54:399][965]LogModuleManager: Shutting down and abandoning module Slate (202)
+[2019.04.13-13.31.54:399][965]LogModuleManager: Shutting down and abandoning module EditorStyle (200)
+[2019.04.13-13.31.54:400][965]LogModuleManager: Shutting down and abandoning module MRMesh (198)
+[2019.04.13-13.31.54:400][965]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (196)
+[2019.04.13-13.31.54:400][965]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (194)
+[2019.04.13-13.31.54:400][965]LogModuleManager: Shutting down and abandoning module XAudio2 (192)
+[2019.04.13-13.31.54:400][965]LogModuleManager: Shutting down and abandoning module Networking (190)
+[2019.04.13-13.31.54:400][965]LogModuleManager: Shutting down and abandoning module Core (188)
+[2019.04.13-13.31.54:400][965]LogModuleManager: Shutting down and abandoning module LevelSequence (186)
+[2019.04.13-13.31.54:400][965]LogModuleManager: Shutting down and abandoning module KismetCompiler (184)
+[2019.04.13-13.31.54:400][965]LogModuleManager: Shutting down and abandoning module MeshUtilities (182)
+[2019.04.13-13.31.54:400][965]LogModuleManager: Shutting down and abandoning module MeshMergeUtilities (181)
+[2019.04.13-13.31.54:400][965]LogModuleManager: Shutting down and abandoning module MeshReductionInterface (180)
+[2019.04.13-13.31.54:400][965]LogModuleManager: Shutting down and abandoning module SimplygonSwarm (179)
+[2019.04.13-13.31.54:400][965]LogModuleManager: Shutting down and abandoning module ProxyLODMeshReduction (177)
+[2019.04.13-13.31.54:400][965]LogModuleManager: Shutting down and abandoning module SimplygonMeshReduction (175)
+[2019.04.13-13.31.54:400][965]LogModuleManager: Shutting down and abandoning module QuadricMeshReduction (173)
+[2019.04.13-13.31.54:400][965]LogModuleManager: Shutting down and abandoning module MaterialBaking (169)
+[2019.04.13-13.31.54:400][965]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (165)
+[2019.04.13-13.31.54:400][965]LogModuleManager: Shutting down and abandoning module DerivedDataCache (162)
+[2019.04.13-13.31.54:438][965]LogDerivedDataCache: Shutdown
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module XGEController (160)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module TargetPlatform (158)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module VulkanShaderFormat (157)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module ShaderFormatVectorVM (155)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (153)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (151)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (149)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (147)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (145)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (143)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (141)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (139)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module ImageWrapper (138)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (135)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (133)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (131)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (129)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module LuminTargetPlatform (127)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (125)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (123)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (121)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module LinuxClientTargetPlatform (119)
+[2019.04.13-13.31.54:438][965]LogModuleManager: Shutting down and abandoning module TVOSTargetPlatform (117)
+[2019.04.13-13.31.54:439][965]LogModuleManager: Shutting down and abandoning module Messaging (115)
+[2019.04.13-13.31.54:439][965]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (113)
+[2019.04.13-13.31.54:440][965]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (111)
+[2019.04.13-13.31.54:440][965]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (109)
+[2019.04.13-13.31.54:447][965]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (107)
+[2019.04.13-13.31.54:447][965]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (105)
+[2019.04.13-13.31.54:447][965]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (103)
+[2019.04.13-13.31.54:447][965]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (101)
+[2019.04.13-13.31.54:447][965]LogModuleManager: Shutting down and abandoning module MacTargetPlatform (99)
+[2019.04.13-13.31.54:447][965]LogModuleManager: Shutting down and abandoning module MacServerTargetPlatform (97)
+[2019.04.13-13.31.54:447][965]LogModuleManager: Shutting down and abandoning module MacNoEditorTargetPlatform (95)
+[2019.04.13-13.31.54:447][965]LogModuleManager: Shutting down and abandoning module MacClientTargetPlatform (93)
+[2019.04.13-13.31.54:447][965]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (91)
+[2019.04.13-13.31.54:447][965]LogModuleManager: Shutting down and abandoning module InputCore (88)
+[2019.04.13-13.31.54:447][965]LogModuleManager: Shutting down and abandoning module Settings (86)
+[2019.04.13-13.31.54:447][965]LogModuleManager: Shutting down and abandoning module PhysXCooking (84)
+[2019.04.13-13.31.54:447][965]LogModuleManager: Shutting down and abandoning module SteamVR (82)
+[2019.04.13-13.31.54:447][965]LogModuleManager: Shutting down and abandoning module OculusHMD (80)
+[2019.04.13-13.31.54:447][965]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (78)
+[2019.04.13-13.31.54:447][965]LogModuleManager: Shutting down and abandoning module LauncherChunkInstaller (76)
+[2019.04.13-13.31.54:447][965]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (74)
+[2019.04.13-13.31.54:447][965]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (70)
+[2019.04.13-13.31.54:448][965]LogModuleManager: Shutting down and abandoning module XMPP (65)
+[2019.04.13-13.31.54:448][965]LogModuleManager: Shutting down and abandoning module WebSockets (64)
+[2019.04.13-13.31.54:472][965]LogModuleManager: Shutting down and abandoning module HTTP (61)
+[2019.04.13-13.31.54:472][965]LogHttp: Display: Http module shutting down, but needs to wait on 1 outstanding Http requests:
+[2019.04.13-13.31.54:472][965]LogHttp: Display: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B63D397CE-4D30-8F57-82AC-60B947B7C0B6%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.20.3-4369336%2B%2B%2BUE4%2BRelease-4.20&UserID=33d4fcb8423debe185793495173773d8%7C1e5fce73afff405ab06b806585640cd9%7C63708c9e-6518-4bc2-85e0-126a962e899e&AppEnvironment=datacollector-binary&UploadType=eteventstream] status=Processing
+[2019.04.13-13.31.54:485][965]LogModuleManager: Shutting down and abandoning module SSL (60)
+[2019.04.13-13.31.54:486][965]LogModuleManager: Shutting down and abandoning module MagicLeapEmulator (56)
+[2019.04.13-13.31.54:486][965]LogModuleManager: Shutting down and abandoning module MagicLeapPrivileges (54)
+[2019.04.13-13.31.54:486][965]LogModuleManager: Shutting down and abandoning module MagicLeapIdentity (52)
+[2019.04.13-13.31.54:486][965]LogModuleManager: Shutting down and abandoning module MagicLeapHelperVulkan (50)
+[2019.04.13-13.31.54:486][965]LogModuleManager: Shutting down and abandoning module MagicLeapHelperOpenGL (48)
+[2019.04.13-13.31.54:486][965]LogModuleManager: Shutting down and abandoning module MagicLeapSecureStorage (46)
+[2019.04.13-13.31.54:486][965]LogModuleManager: Shutting down and abandoning module MagicLeapGestures (44)
+[2019.04.13-13.31.54:486][965]LogModuleManager: Shutting down and abandoning module MagicLeapEyeTracker (42)
+[2019.04.13-13.31.54:486][965]LogModuleManager: Shutting down and abandoning module MagicLeapController (40)
+[2019.04.13-13.31.54:486][965]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2019.04.13-13.31.54:486][965]LogModuleManager: Shutting down and abandoning module MagicLeap (38)
+[2019.04.13-13.31.54:486][965]LogModuleManager: Shutting down and abandoning module AnimationModifiers (36)
+[2019.04.13-13.31.54:487][965]LogModuleManager: Shutting down and abandoning module PropertyEditor (35)
+[2019.04.13-13.31.54:487][965]LogModuleManager: Shutting down and abandoning module AudioEditor (32)
+[2019.04.13-13.31.54:487][965]LogModuleManager: Shutting down and abandoning module TextureCompressor (30)
+[2019.04.13-13.31.54:487][965]LogModuleManager: Shutting down and abandoning module ShaderCore (28)
+[2019.04.13-13.31.54:487][965]LogModuleManager: Shutting down and abandoning module Landscape (26)
+[2019.04.13-13.31.54:487][965]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (24)
+[2019.04.13-13.31.54:488][965]LogModuleManager: Shutting down and abandoning module OpenGLDrv (22)
+[2019.04.13-13.31.54:488][965]LogModuleManager: Shutting down and abandoning module D3D11RHI (20)
+[2019.04.13-13.31.54:488][965]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (18)
+[2019.04.13-13.31.54:488][965]LogModuleManager: Shutting down and abandoning module Renderer (16)
+[2019.04.13-13.31.54:488][965]LogModuleManager: Shutting down and abandoning module Engine (14)
+[2019.04.13-13.31.54:488][965]LogModuleManager: Shutting down and abandoning module CoreUObject (12)
+[2019.04.13-13.31.54:488][965]LogModuleManager: Shutting down and abandoning module NetworkFile (10)
+[2019.04.13-13.31.54:488][965]LogModuleManager: Shutting down and abandoning module CookedIterativeFile (8)
+[2019.04.13-13.31.54:488][965]LogModuleManager: Shutting down and abandoning module StreamingFile (6)
+[2019.04.13-13.31.54:488][965]LogModuleManager: Shutting down and abandoning module SandboxFile (4)
+[2019.04.13-13.31.54:488][965]LogModuleManager: Shutting down and abandoning module PakFile (2)
+[2019.04.13-13.31.54:492][965]LogExit: Exiting.
+[2019.04.13-13.31.54:519][965]Log file closed, 04/13/19 21:31:54
